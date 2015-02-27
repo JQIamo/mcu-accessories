@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="no" active="no"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="no"/>
@@ -880,13 +880,6 @@
 <text x="-2.54" y="-5.08" size="1.778" layer="96" rot="R90">&gt;VALUE</text>
 <pin name="+5V" x="0" y="-2.54" visible="off" length="short" direction="sup" rot="R90"/>
 </symbol>
-<symbol name="V+">
-<wire x1="0.889" y1="-1.27" x2="0" y2="0.127" width="0.254" layer="94"/>
-<wire x1="0" y1="0.127" x2="-0.889" y2="-1.27" width="0.254" layer="94"/>
-<wire x1="-0.889" y1="-1.27" x2="0.889" y2="-1.27" width="0.254" layer="94"/>
-<text x="-2.54" y="-2.54" size="1.778" layer="96" rot="R90">&gt;VALUE</text>
-<pin name="V+" x="0" y="-2.54" visible="off" length="short" direction="sup" rot="R90"/>
-</symbol>
 </symbols>
 <devicesets>
 <deviceset name="GND" prefix="GND">
@@ -919,19 +912,6 @@
 <description>&lt;b&gt;SUPPLY SYMBOL&lt;/b&gt;</description>
 <gates>
 <gate name="1" symbol="+5V" x="0" y="0"/>
-</gates>
-<devices>
-<device name="">
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-</devices>
-</deviceset>
-<deviceset name="V+" prefix="P+">
-<description>&lt;b&gt;SUPPLY SYMBOL&lt;/b&gt;</description>
-<gates>
-<gate name="1" symbol="V+" x="0" y="0"/>
 </gates>
 <devices>
 <device name="">
@@ -1300,93 +1280,6 @@
 </deviceset>
 </devicesets>
 </library>
-<library name="aom_driver">
-<packages>
-<package name="SOT89">
-<description>&lt;b&gt;SOT98&lt;/b&gt; PK (R-PDSO-G3)&lt;p&gt;
-Source: http://focus.ti.com/lit/ds/symlink/ua78l05.pdf</description>
-<wire x1="2.235" y1="-1.245" x2="-2.235" y2="-1.245" width="0.127" layer="51"/>
-<wire x1="2.235" y1="1.219" x2="2.235" y2="-1.245" width="0.127" layer="21"/>
-<wire x1="-2.235" y1="-1.245" x2="-2.235" y2="1.219" width="0.127" layer="21"/>
-<wire x1="-2.235" y1="1.219" x2="2.235" y2="1.219" width="0.127" layer="51"/>
-<wire x1="-0.7874" y1="1.5748" x2="-0.3556" y2="2.0066" width="0.1998" layer="51"/>
-<wire x1="-0.3556" y1="2.0066" x2="0.3556" y2="2.0066" width="0.1998" layer="51"/>
-<wire x1="0.3556" y1="2.0066" x2="0.7874" y2="1.5748" width="0.1998" layer="51"/>
-<wire x1="0.7874" y1="1.5748" x2="0.7874" y2="1.2954" width="0.1998" layer="51"/>
-<wire x1="0.7874" y1="1.2954" x2="-0.7874" y2="1.2954" width="0.1998" layer="51"/>
-<wire x1="-0.7874" y1="1.2954" x2="-0.7874" y2="1.5748" width="0.1998" layer="51"/>
-<smd name="1" x="-1.499" y="-1.981" dx="1" dy="1.5" layer="1" stop="no" cream="no"/>
-<smd name="3" x="1.499" y="-1.981" dx="1" dy="1.5" layer="1" stop="no" cream="no"/>
-<smd name="2" x="0" y="-1.727" dx="1" dy="2" layer="1" stop="no" cream="no"/>
-<smd name="2@1" x="0" y="0.94" dx="2.2" dy="3.7" layer="1" roundness="100" cream="no"/>
-<text x="-2.54" y="3.175" size="1.27" layer="25">&gt;NAME</text>
-<text x="-2.4051" y="-4.3449" size="1.27" layer="27">&gt;VALUE</text>
-<rectangle x1="-1.7272" y1="-2.1082" x2="-1.27" y2="-1.27" layer="51"/>
-<rectangle x1="1.27" y1="-2.1082" x2="1.7272" y2="-1.27" layer="51"/>
-<rectangle x1="-0.2794" y1="-2.1082" x2="0.2794" y2="-1.27" layer="51"/>
-<rectangle x1="-0.4" y1="-2.68" x2="0.4" y2="-1.28" layer="31"/>
-<rectangle x1="-2.025" y1="-2.775" x2="-0.975" y2="-1.2" layer="29"/>
-<rectangle x1="0.975" y1="-2.775" x2="2.025" y2="-1.2" layer="29"/>
-<rectangle x1="-0.525" y1="-2.775" x2="0.525" y2="-1.2" layer="29"/>
-<rectangle x1="1.1" y1="-2.68" x2="1.9" y2="-1.28" layer="31"/>
-<rectangle x1="-1.9" y1="-2.68" x2="-1.1" y2="-1.28" layer="31"/>
-<rectangle x1="-0.9" y1="0" x2="0.9" y2="2.2" layer="31"/>
-<polygon width="0.1998" layer="51">
-<vertex x="-0.7874" y="1.3208"/>
-<vertex x="-0.7874" y="1.5748"/>
-<vertex x="-0.3556" y="2.0066"/>
-<vertex x="0.3048" y="2.0066"/>
-<vertex x="0.3556" y="2.0066"/>
-<vertex x="0.7874" y="1.5748"/>
-<vertex x="0.7874" y="1.2954"/>
-<vertex x="-0.7874" y="1.2954"/>
-</polygon>
-</package>
-</packages>
-<symbols>
-<symbol name="78XX2GND">
-<wire x1="-5.08" y1="-5.08" x2="7.62" y2="-5.08" width="0.4064" layer="94"/>
-<wire x1="7.62" y1="-5.08" x2="7.62" y2="2.54" width="0.4064" layer="94"/>
-<wire x1="7.62" y1="2.54" x2="-5.08" y2="2.54" width="0.4064" layer="94"/>
-<wire x1="-5.08" y1="2.54" x2="-5.08" y2="-5.08" width="0.4064" layer="94"/>
-<text x="-5.08" y="5.715" size="1.778" layer="95">&gt;NAME</text>
-<text x="-5.08" y="3.175" size="1.778" layer="96">&gt;VALUE</text>
-<text x="-1.27" y="-4.318" size="1.524" layer="95">GND</text>
-<pin name="VI" x="-7.62" y="0" length="short" direction="in"/>
-<pin name="GND" x="0" y="-7.62" visible="pad" length="short" direction="pas" rot="R90"/>
-<pin name="VO" x="10.16" y="0" length="short" direction="pas" rot="R180"/>
-<pin name="GND@1" x="2.54" y="-7.62" visible="off" length="short" direction="pas" rot="R90"/>
-</symbol>
-</symbols>
-<devicesets>
-<deviceset name="78L*" prefix="IC">
-<description>&lt;b&gt;POSITOIV-VOLTAGE REGULATORS&lt;/b&gt;&lt;p&gt;
-Output up to 100 mA&lt;b&gt;
-Source: http://focus.ti.com/lit/ds/symlink/ua78l05.pdf</description>
-<gates>
-<gate name="G$1" symbol="78XX2GND" x="0" y="0"/>
-</gates>
-<devices>
-<device name="F" package="SOT89">
-<connects>
-<connect gate="G$1" pin="GND" pad="2"/>
-<connect gate="G$1" pin="GND@1" pad="2@1"/>
-<connect gate="G$1" pin="VI" pad="3"/>
-<connect gate="G$1" pin="VO" pad="1"/>
-</connects>
-<technologies>
-<technology name="05"/>
-<technology name="08"/>
-<technology name="09"/>
-<technology name="10"/>
-<technology name="12"/>
-<technology name="15"/>
-</technologies>
-</device>
-</devices>
-</deviceset>
-</devicesets>
-</library>
 <library name="connector-jqi">
 <packages>
 <package name="BNC90">
@@ -1485,40 +1378,23 @@ Source: http://focus.ti.com/lit/ds/symlink/ua78l05.pdf</description>
 <part name="GND3" library="supply1" deviceset="GND" device=""/>
 <part name="PLL1" library="pinhead" deviceset="PINHD-1X4" device=""/>
 <part name="PLL2" library="pinhead" deviceset="PINHD-1X4" device=""/>
-<part name="PLL3" library="pinhead" deviceset="PINHD-1X4" device=""/>
-<part name="PLL4" library="pinhead" deviceset="PINHD-1X4" device=""/>
 <part name="DDS1" library="mcu-accessories" deviceset="ML16" device=""/>
 <part name="DDS2" library="mcu-accessories" deviceset="ML16" device=""/>
-<part name="DDS4" library="mcu-accessories" deviceset="ML16" device=""/>
-<part name="DDS3" library="mcu-accessories" deviceset="ML16" device=""/>
 <part name="ENC/SW" library="mcu-accessories" deviceset="ML16" device=""/>
-<part name="GND1" library="supply1" deviceset="GND" device=""/>
 <part name="GND2" library="supply1" deviceset="GND" device=""/>
 <part name="GND4" library="supply1" deviceset="GND" device=""/>
 <part name="VDD1" library="supply1" deviceset="VDD" device=""/>
 <part name="GND5" library="supply1" deviceset="GND" device=""/>
 <part name="VDD2" library="supply1" deviceset="VDD" device=""/>
 <part name="P+1" library="supply1" deviceset="+5V" device=""/>
-<part name="C79" library="rlc-jqi" deviceset="CAP" device="0805" value="1uF">
-<attribute name="PARTNO" value="1276-2396-1-ND"/>
-</part>
-<part name="C82" library="rlc-jqi" deviceset="CAP" device="0603" value="100nF">
-<attribute name="PARTNO" value="1276-1936-1-ND"/>
-</part>
-<part name="IC9" library="aom_driver" deviceset="78L*" device="F" technology="05">
-<attribute name="PARTNO" value="MC78L05ACHXCT-ND"/>
-</part>
 <part name="C84" library="rlc-jqi" deviceset="CAP" device="0805" value="10uF">
 <attribute name="PARTNO" value="1276-2890-1-ND"/>
 </part>
-<part name="P+2" library="supply1" deviceset="+5V" device=""/>
 <part name="JP1" library="pinhead" deviceset="PINHD-1X2" device=""/>
-<part name="GND6" library="supply1" deviceset="GND" device=""/>
 <part name="GND7" library="supply1" deviceset="GND" device=""/>
-<part name="P+3" library="supply1" deviceset="V+" device=""/>
-<part name="P+4" library="supply1" deviceset="V+" device=""/>
 <part name="TRIG" library="connector-jqi" deviceset="BNC" device="-H"/>
 <part name="GND8" library="supply1" deviceset="GND" device=""/>
+<part name="P+2" library="supply1" deviceset="+5V" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -1533,40 +1409,23 @@ Source: http://focus.ti.com/lit/ds/symlink/ua78l05.pdf</description>
 <instance part="GND3" gate="1" x="-5.08" y="91.44"/>
 <instance part="PLL1" gate="A" x="-30.48" y="55.88"/>
 <instance part="PLL2" gate="A" x="-30.48" y="38.1"/>
-<instance part="PLL3" gate="A" x="-30.48" y="20.32"/>
-<instance part="PLL4" gate="A" x="-30.48" y="2.54"/>
 <instance part="DDS1" gate="1" x="25.4" y="154.94"/>
 <instance part="DDS2" gate="1" x="25.4" y="124.46"/>
-<instance part="DDS4" gate="1" x="73.66" y="154.94"/>
-<instance part="DDS3" gate="1" x="73.66" y="124.46"/>
 <instance part="ENC/SW" gate="1" x="-38.1" y="139.7"/>
-<instance part="GND1" gate="1" x="66.04" y="104.14"/>
 <instance part="GND2" gate="1" x="17.78" y="104.14"/>
 <instance part="GND4" gate="1" x="-5.08" y="144.78"/>
 <instance part="VDD1" gate="G$1" x="-66.04" y="142.24"/>
 <instance part="GND5" gate="1" x="106.68" y="73.66"/>
 <instance part="VDD2" gate="G$1" x="106.68" y="88.9"/>
 <instance part="P+1" gate="1" x="99.06" y="99.06"/>
-<instance part="C79" gate="G$1" x="-91.44" y="176.53" rot="R270">
-<attribute name="PARTNO" x="-91.44" y="176.53" size="1.778" layer="96" rot="R90" display="off"/>
+<instance part="C84" gate="G$1" x="111.76" y="120.65" rot="R90">
+<attribute name="PARTNO" x="111.76" y="120.65" size="1.778" layer="96" display="off"/>
 </instance>
-<instance part="C82" gate="G$1" x="-50.8" y="176.53" rot="R90">
-<attribute name="PARTNO" x="-50.8" y="176.53" size="1.778" layer="96" rot="R180" display="off"/>
-</instance>
-<instance part="IC9" gate="G$1" x="-73.66" y="180.34">
-<attribute name="PARTNO" x="-73.66" y="180.34" size="1.778" layer="96" display="off"/>
-</instance>
-<instance part="C84" gate="G$1" x="-53.34" y="212.09" rot="R90">
-<attribute name="PARTNO" x="-53.34" y="212.09" size="1.778" layer="96" display="off"/>
-</instance>
-<instance part="P+2" gate="1" x="-50.8" y="189.23"/>
-<instance part="JP1" gate="G$1" x="-91.44" y="213.36" rot="MR0"/>
-<instance part="GND6" gate="1" x="-73.66" y="165.1"/>
-<instance part="GND7" gate="1" x="-53.34" y="203.2"/>
-<instance part="P+3" gate="1" x="-53.34" y="223.52"/>
-<instance part="P+4" gate="1" x="-91.44" y="187.96"/>
+<instance part="JP1" gate="G$1" x="73.66" y="121.92" rot="MR0"/>
+<instance part="GND7" gate="1" x="111.76" y="111.76"/>
 <instance part="TRIG" gate="G$1" x="-88.9" y="71.12"/>
 <instance part="GND8" gate="1" x="-78.74" y="60.96"/>
+<instance part="P+2" gate="1" x="111.76" y="132.08"/>
 </instances>
 <busses>
 </busses>
@@ -1576,72 +1435,6 @@ Source: http://focus.ti.com/lit/ds/symlink/ua78l05.pdf</description>
 <pinref part="LCD" gate="1" pin="11"/>
 <wire x1="-30.48" y1="93.98" x2="-5.08" y2="93.98" width="0.1524" layer="91"/>
 <pinref part="GND3" gate="1" pin="GND"/>
-</segment>
-<segment>
-<pinref part="DDS4" gate="1" pin="16"/>
-<pinref part="DDS4" gate="1" pin="14"/>
-<wire x1="66.04" y1="162.56" x2="66.04" y2="160.02" width="0.1524" layer="91"/>
-<pinref part="DDS4" gate="1" pin="12"/>
-<wire x1="66.04" y1="160.02" x2="66.04" y2="157.48" width="0.1524" layer="91"/>
-<junction x="66.04" y="160.02"/>
-<pinref part="DDS4" gate="1" pin="10"/>
-<wire x1="66.04" y1="157.48" x2="66.04" y2="154.94" width="0.1524" layer="91"/>
-<junction x="66.04" y="157.48"/>
-<pinref part="DDS4" gate="1" pin="8"/>
-<wire x1="66.04" y1="154.94" x2="66.04" y2="152.4" width="0.1524" layer="91"/>
-<junction x="66.04" y="154.94"/>
-<pinref part="DDS4" gate="1" pin="6"/>
-<wire x1="66.04" y1="152.4" x2="66.04" y2="149.86" width="0.1524" layer="91"/>
-<junction x="66.04" y="152.4"/>
-<pinref part="DDS4" gate="1" pin="4"/>
-<wire x1="66.04" y1="149.86" x2="66.04" y2="147.32" width="0.1524" layer="91"/>
-<junction x="66.04" y="149.86"/>
-<pinref part="DDS4" gate="1" pin="2"/>
-<wire x1="66.04" y1="147.32" x2="66.04" y2="144.78" width="0.1524" layer="91"/>
-<junction x="66.04" y="147.32"/>
-<pinref part="DDS3" gate="1" pin="16"/>
-<wire x1="66.04" y1="144.78" x2="66.04" y2="139.7" width="0.1524" layer="91"/>
-<junction x="66.04" y="144.78"/>
-<pinref part="DDS3" gate="1" pin="14"/>
-<wire x1="66.04" y1="139.7" x2="66.04" y2="132.08" width="0.1524" layer="91"/>
-<wire x1="66.04" y1="132.08" x2="66.04" y2="129.54" width="0.1524" layer="91"/>
-<junction x="66.04" y="132.08"/>
-<pinref part="DDS3" gate="1" pin="12"/>
-<wire x1="66.04" y1="129.54" x2="66.04" y2="127" width="0.1524" layer="91"/>
-<junction x="66.04" y="129.54"/>
-<pinref part="DDS3" gate="1" pin="10"/>
-<wire x1="66.04" y1="127" x2="66.04" y2="124.46" width="0.1524" layer="91"/>
-<junction x="66.04" y="127"/>
-<pinref part="DDS3" gate="1" pin="8"/>
-<wire x1="66.04" y1="124.46" x2="66.04" y2="121.92" width="0.1524" layer="91"/>
-<junction x="66.04" y="124.46"/>
-<pinref part="DDS3" gate="1" pin="6"/>
-<wire x1="66.04" y1="121.92" x2="66.04" y2="119.38" width="0.1524" layer="91"/>
-<junction x="66.04" y="121.92"/>
-<pinref part="DDS3" gate="1" pin="4"/>
-<wire x1="66.04" y1="119.38" x2="66.04" y2="116.84" width="0.1524" layer="91"/>
-<junction x="66.04" y="119.38"/>
-<pinref part="DDS3" gate="1" pin="2"/>
-<wire x1="66.04" y1="116.84" x2="66.04" y2="114.3" width="0.1524" layer="91"/>
-<junction x="66.04" y="116.84"/>
-<wire x1="66.04" y1="114.3" x2="66.04" y2="109.22" width="0.1524" layer="91"/>
-<junction x="66.04" y="114.3"/>
-<pinref part="GND1" gate="1" pin="GND"/>
-<pinref part="DDS4" gate="1" pin="7"/>
-<pinref part="DDS4" gate="1" pin="3"/>
-<wire x1="66.04" y1="109.22" x2="66.04" y2="106.68" width="0.1524" layer="91"/>
-<wire x1="81.28" y1="152.4" x2="81.28" y2="147.32" width="0.1524" layer="91"/>
-<wire x1="81.28" y1="147.32" x2="81.28" y2="139.7" width="0.1524" layer="91"/>
-<wire x1="81.28" y1="139.7" x2="66.04" y2="139.7" width="0.1524" layer="91"/>
-<junction x="81.28" y="147.32"/>
-<junction x="66.04" y="139.7"/>
-<pinref part="DDS3" gate="1" pin="3"/>
-<pinref part="DDS3" gate="1" pin="7"/>
-<wire x1="81.28" y1="121.92" x2="81.28" y2="116.84" width="0.1524" layer="91"/>
-<wire x1="81.28" y1="116.84" x2="81.28" y2="109.22" width="0.1524" layer="91"/>
-<wire x1="81.28" y1="109.22" x2="66.04" y2="109.22" width="0.1524" layer="91"/>
-<junction x="81.28" y="116.84"/>
-<junction x="66.04" y="109.22"/>
 </segment>
 <segment>
 <pinref part="DDS1" gate="1" pin="16"/>
@@ -1721,27 +1514,13 @@ Source: http://focus.ti.com/lit/ds/symlink/ua78l05.pdf</description>
 </segment>
 <segment>
 <pinref part="C84" gate="G$1" pin="P$1"/>
-<wire x1="-53.34" y1="205.74" x2="-53.34" y2="208.28" width="0.1524" layer="91"/>
+<wire x1="111.76" y1="114.3" x2="111.76" y2="116.84" width="0.1524" layer="91"/>
 <pinref part="GND7" gate="1" pin="GND"/>
-<wire x1="-53.34" y1="208.28" x2="-81.28" y2="208.28" width="0.1524" layer="91"/>
-<wire x1="-81.28" y1="208.28" x2="-81.28" y2="213.36" width="0.1524" layer="91"/>
-<junction x="-53.34" y="208.28"/>
+<wire x1="111.76" y1="116.84" x2="83.82" y2="116.84" width="0.1524" layer="91"/>
+<wire x1="83.82" y1="116.84" x2="83.82" y2="121.92" width="0.1524" layer="91"/>
+<junction x="111.76" y="116.84"/>
 <pinref part="JP1" gate="G$1" pin="2"/>
-<wire x1="-81.28" y1="213.36" x2="-88.9" y2="213.36" width="0.1524" layer="91"/>
-</segment>
-<segment>
-<pinref part="C79" gate="G$1" pin="P$2"/>
-<pinref part="IC9" gate="G$1" pin="GND"/>
-<wire x1="-91.44" y1="172.72" x2="-73.66" y2="172.72" width="0.1524" layer="91"/>
-<pinref part="IC9" gate="G$1" pin="GND@1"/>
-<junction x="-73.66" y="172.72"/>
-<pinref part="C82" gate="G$1" pin="P$1"/>
-<wire x1="-73.66" y1="172.72" x2="-71.12" y2="172.72" width="0.1524" layer="91"/>
-<wire x1="-71.12" y1="172.72" x2="-50.8" y2="172.72" width="0.1524" layer="91"/>
-<junction x="-71.12" y="172.72"/>
-<junction x="-73.66" y="172.72"/>
-<pinref part="GND6" gate="1" pin="GND"/>
-<wire x1="-73.66" y1="172.72" x2="-73.66" y2="167.64" width="0.1524" layer="91"/>
+<wire x1="83.82" y1="121.92" x2="76.2" y2="121.92" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="TRIG" gate="G$1" pin="2"/>
@@ -1828,29 +1607,9 @@ Source: http://focus.ti.com/lit/ds/symlink/ua78l05.pdf</description>
 <label x="-50.8" y="40.64" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="PLL3" gate="A" pin="2"/>
-<wire x1="-33.02" y1="22.86" x2="-50.8" y2="22.86" width="0.1524" layer="91"/>
-<label x="-50.8" y="22.86" size="1.778" layer="95"/>
-</segment>
-<segment>
-<pinref part="PLL4" gate="A" pin="2"/>
-<wire x1="-33.02" y1="5.08" x2="-50.8" y2="5.08" width="0.1524" layer="91"/>
-<label x="-50.8" y="5.08" size="1.778" layer="95"/>
-</segment>
-<segment>
 <pinref part="DDS1" gate="1" pin="9"/>
 <wire x1="33.02" y1="154.94" x2="43.18" y2="154.94" width="0.1524" layer="91"/>
 <label x="35.56" y="154.94" size="1.778" layer="95"/>
-</segment>
-<segment>
-<pinref part="DDS4" gate="1" pin="9"/>
-<wire x1="81.28" y1="154.94" x2="91.44" y2="154.94" width="0.1524" layer="91"/>
-<label x="83.82" y="154.94" size="1.778" layer="95"/>
-</segment>
-<segment>
-<pinref part="DDS3" gate="1" pin="9"/>
-<wire x1="81.28" y1="124.46" x2="91.44" y2="124.46" width="0.1524" layer="91"/>
-<label x="83.82" y="124.46" size="1.778" layer="95"/>
 </segment>
 <segment>
 <pinref part="DDS2" gate="1" pin="9"/>
@@ -1870,16 +1629,6 @@ Source: http://focus.ti.com/lit/ds/symlink/ua78l05.pdf</description>
 <label x="-50.8" y="43.18" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="PLL3" gate="A" pin="1"/>
-<wire x1="-33.02" y1="25.4" x2="-50.8" y2="25.4" width="0.1524" layer="91"/>
-<label x="-50.8" y="25.4" size="1.778" layer="95"/>
-</segment>
-<segment>
-<pinref part="PLL4" gate="A" pin="1"/>
-<wire x1="-33.02" y1="7.62" x2="-50.8" y2="7.62" width="0.1524" layer="91"/>
-<label x="-50.8" y="7.62" size="1.778" layer="95"/>
-</segment>
-<segment>
 <pinref part="LCD" gate="1" pin="7"/>
 <wire x1="-30.48" y1="88.9" x2="-19.05" y2="88.9" width="0.1524" layer="91"/>
 <label x="-22.86" y="88.9" size="1.778" layer="95"/>
@@ -1895,16 +1644,6 @@ Source: http://focus.ti.com/lit/ds/symlink/ua78l05.pdf</description>
 <label x="35.56" y="157.48" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="DDS4" gate="1" pin="11"/>
-<wire x1="81.28" y1="157.48" x2="91.44" y2="157.48" width="0.1524" layer="91"/>
-<label x="83.82" y="157.48" size="1.778" layer="95"/>
-</segment>
-<segment>
-<pinref part="DDS3" gate="1" pin="11"/>
-<wire x1="81.28" y1="127" x2="91.44" y2="127" width="0.1524" layer="91"/>
-<label x="83.82" y="127" size="1.778" layer="95"/>
-</segment>
-<segment>
 <pinref part="DDS2" gate="1" pin="11"/>
 <wire x1="33.02" y1="127" x2="43.18" y2="127" width="0.1524" layer="91"/>
 <label x="35.56" y="127" size="1.778" layer="95"/>
@@ -1917,9 +1656,9 @@ Source: http://focus.ti.com/lit/ds/symlink/ua78l05.pdf</description>
 <label x="-50.8" y="55.88" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="TEENSY" gate="G$1" pin="30/A19/SDA1"/>
-<wire x1="93.98" y1="35.56" x2="114.3" y2="35.56" width="0.1524" layer="91"/>
-<label x="96.52" y="35.56" size="1.778" layer="95"/>
+<pinref part="TEENSY" gate="G$1" pin="15/A1/T"/>
+<wire x1="48.26" y1="45.72" x2="27.94" y2="45.72" width="0.1524" layer="91"/>
+<label x="25.4" y="45.72" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="PLL1_MUX" class="0">
@@ -1929,9 +1668,9 @@ Source: http://focus.ti.com/lit/ds/symlink/ua78l05.pdf</description>
 <label x="-50.8" y="53.34" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="TEENSY" gate="G$1" pin="26/A15"/>
-<wire x1="93.98" y1="25.4" x2="114.3" y2="25.4" width="0.1524" layer="91"/>
-<label x="96.52" y="25.4" size="1.778" layer="95"/>
+<pinref part="TEENSY" gate="G$1" pin="14/A0"/>
+<wire x1="48.26" y1="48.26" x2="27.94" y2="48.26" width="0.1524" layer="91"/>
+<label x="25.4" y="48.26" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="PLL2_LE" class="0">
@@ -1941,9 +1680,9 @@ Source: http://focus.ti.com/lit/ds/symlink/ua78l05.pdf</description>
 <label x="-50.8" y="38.1" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="TEENSY" gate="G$1" pin="31/A20"/>
-<wire x1="93.98" y1="38.1" x2="114.3" y2="38.1" width="0.1524" layer="91"/>
-<label x="96.52" y="38.1" size="1.778" layer="95"/>
+<pinref part="TEENSY" gate="G$1" pin="17/A3/T"/>
+<wire x1="48.26" y1="40.64" x2="27.94" y2="40.64" width="0.1524" layer="91"/>
+<label x="25.4" y="40.64" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="PLL2_MUX" class="0">
@@ -1953,57 +1692,9 @@ Source: http://focus.ti.com/lit/ds/symlink/ua78l05.pdf</description>
 <label x="-50.8" y="35.56" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="TEENSY" gate="G$1" pin="27/A16"/>
-<wire x1="93.98" y1="27.94" x2="114.3" y2="27.94" width="0.1524" layer="91"/>
-<label x="96.52" y="27.94" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="PLL3_LE" class="0">
-<segment>
-<pinref part="PLL3" gate="A" pin="3"/>
-<wire x1="-33.02" y1="20.32" x2="-50.8" y2="20.32" width="0.1524" layer="91"/>
-<label x="-50.8" y="20.32" size="1.778" layer="95"/>
-</segment>
-<segment>
-<pinref part="TEENSY" gate="G$1" pin="32/T/PWM"/>
-<wire x1="93.98" y1="40.64" x2="114.3" y2="40.64" width="0.1524" layer="91"/>
-<label x="96.52" y="40.64" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="PLL3_MUX" class="0">
-<segment>
-<pinref part="PLL3" gate="A" pin="4"/>
-<wire x1="-33.02" y1="17.78" x2="-50.8" y2="17.78" width="0.1524" layer="91"/>
-<label x="-50.8" y="17.78" size="1.778" layer="95"/>
-</segment>
-<segment>
-<pinref part="TEENSY" gate="G$1" pin="28/A17"/>
-<wire x1="93.98" y1="30.48" x2="114.3" y2="30.48" width="0.1524" layer="91"/>
-<label x="96.52" y="30.48" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="PLL4_LE" class="0">
-<segment>
-<pinref part="PLL4" gate="A" pin="3"/>
-<wire x1="-33.02" y1="2.54" x2="-50.8" y2="2.54" width="0.1524" layer="91"/>
-<label x="-50.8" y="2.54" size="1.778" layer="95"/>
-</segment>
-<segment>
-<pinref part="TEENSY" gate="G$1" pin="33/T"/>
-<wire x1="93.98" y1="43.18" x2="114.3" y2="43.18" width="0.1524" layer="91"/>
-<label x="96.52" y="43.18" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="PLL4_MUX" class="0">
-<segment>
-<pinref part="PLL4" gate="A" pin="4"/>
-<wire x1="-33.02" y1="0" x2="-50.8" y2="0" width="0.1524" layer="91"/>
-<label x="-50.8" y="0" size="1.778" layer="95"/>
-</segment>
-<segment>
-<pinref part="TEENSY" gate="G$1" pin="29/A18/SCL1"/>
-<wire x1="93.98" y1="33.02" x2="114.3" y2="33.02" width="0.1524" layer="91"/>
-<label x="96.52" y="33.02" size="1.778" layer="95"/>
+<pinref part="TEENSY" gate="G$1" pin="16/A2/T"/>
+<wire x1="48.26" y1="43.18" x2="27.94" y2="43.18" width="0.1524" layer="91"/>
+<label x="25.4" y="43.18" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="DDS1_RESET" class="0">
@@ -2054,36 +1745,7 @@ Source: http://focus.ti.com/lit/ds/symlink/ua78l05.pdf</description>
 <label x="25.4" y="71.12" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="DDS3_RESET" class="0">
-<segment>
-<pinref part="DDS3" gate="1" pin="15"/>
-<wire x1="81.28" y1="132.08" x2="91.44" y2="132.08" width="0.1524" layer="91"/>
-<label x="83.82" y="132.08" size="1.778" layer="95"/>
-</segment>
-<segment>
-<pinref part="TEENSY" gate="G$1" pin="14/A0"/>
-<wire x1="48.26" y1="48.26" x2="27.94" y2="48.26" width="0.1524" layer="91"/>
-<label x="25.4" y="48.26" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="DDS3_CS" class="0">
-<segment>
-<pinref part="DDS3" gate="1" pin="13"/>
-<wire x1="81.28" y1="129.54" x2="91.44" y2="129.54" width="0.1524" layer="91"/>
-<label x="83.82" y="129.54" size="1.778" layer="95"/>
-</segment>
-<segment>
-<pinref part="TEENSY" gate="G$1" pin="15/A1/T"/>
-<wire x1="48.26" y1="45.72" x2="27.94" y2="45.72" width="0.1524" layer="91"/>
-<label x="25.4" y="45.72" size="1.778" layer="95"/>
-</segment>
-</net>
 <net name="DDS4_RESET" class="0">
-<segment>
-<pinref part="DDS4" gate="1" pin="15"/>
-<wire x1="81.28" y1="162.56" x2="91.44" y2="162.56" width="0.1524" layer="91"/>
-<label x="83.82" y="162.56" size="1.778" layer="95"/>
-</segment>
 <segment>
 <pinref part="TEENSY" gate="G$1" pin="18/A4/T/SDA0"/>
 <wire x1="48.26" y1="38.1" x2="27.94" y2="38.1" width="0.1524" layer="91"/>
@@ -2091,11 +1753,6 @@ Source: http://focus.ti.com/lit/ds/symlink/ua78l05.pdf</description>
 </segment>
 </net>
 <net name="DDS4_CS" class="0">
-<segment>
-<pinref part="DDS4" gate="1" pin="13"/>
-<wire x1="81.28" y1="160.02" x2="91.44" y2="160.02" width="0.1524" layer="91"/>
-<label x="83.82" y="160.02" size="1.778" layer="95"/>
-</segment>
 <segment>
 <pinref part="TEENSY" gate="G$1" pin="19/A5/T/SCL0"/>
 <wire x1="48.26" y1="35.56" x2="27.94" y2="35.56" width="0.1524" layer="91"/>
@@ -2150,36 +1807,7 @@ Source: http://focus.ti.com/lit/ds/symlink/ua78l05.pdf</description>
 <label x="25.4" y="78.74" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="DDS3_PS0" class="0">
-<segment>
-<pinref part="DDS3" gate="1" pin="5"/>
-<wire x1="81.28" y1="119.38" x2="91.44" y2="119.38" width="0.1524" layer="91"/>
-<label x="83.82" y="119.38" size="1.778" layer="95"/>
-</segment>
-<segment>
-<pinref part="TEENSY" gate="G$1" pin="16/A2/T"/>
-<wire x1="48.26" y1="43.18" x2="27.94" y2="43.18" width="0.1524" layer="91"/>
-<label x="25.4" y="43.18" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="DDS3_IOUPDATE" class="0">
-<segment>
-<pinref part="DDS3" gate="1" pin="1"/>
-<wire x1="81.28" y1="114.3" x2="91.44" y2="114.3" width="0.1524" layer="91"/>
-<label x="83.82" y="114.3" size="1.778" layer="95"/>
-</segment>
-<segment>
-<pinref part="TEENSY" gate="G$1" pin="17/A3/T"/>
-<wire x1="48.26" y1="40.64" x2="27.94" y2="40.64" width="0.1524" layer="91"/>
-<label x="25.4" y="40.64" size="1.778" layer="95"/>
-</segment>
-</net>
 <net name="DDS4_IOUPDATE" class="0">
-<segment>
-<pinref part="DDS4" gate="1" pin="1"/>
-<wire x1="81.28" y1="144.78" x2="91.44" y2="144.78" width="0.1524" layer="91"/>
-<label x="83.82" y="144.78" size="1.778" layer="95"/>
-</segment>
 <segment>
 <pinref part="TEENSY" gate="G$1" pin="21/A7/PWM"/>
 <wire x1="48.26" y1="30.48" x2="27.94" y2="30.48" width="0.1524" layer="91"/>
@@ -2187,11 +1815,6 @@ Source: http://focus.ti.com/lit/ds/symlink/ua78l05.pdf</description>
 </segment>
 </net>
 <net name="DDS4_PS0" class="0">
-<segment>
-<pinref part="DDS4" gate="1" pin="5"/>
-<wire x1="81.28" y1="149.86" x2="91.44" y2="149.86" width="0.1524" layer="91"/>
-<label x="83.82" y="149.86" size="1.778" layer="95"/>
-</segment>
 <segment>
 <pinref part="TEENSY" gate="G$1" pin="20/A6/PWM"/>
 <wire x1="48.26" y1="33.02" x2="27.94" y2="33.02" width="0.1524" layer="91"/>
@@ -2253,9 +1876,9 @@ Source: http://focus.ti.com/lit/ds/symlink/ua78l05.pdf</description>
 <label x="-25.4" y="132.08" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="TEENSY" gate="G$1" pin="25/T/PWM"/>
-<wire x1="93.98" y1="22.86" x2="114.3" y2="22.86" width="0.1524" layer="91"/>
-<label x="96.52" y="22.86" size="1.778" layer="95"/>
+<pinref part="TEENSY" gate="G$1" pin="33/T"/>
+<wire x1="93.98" y1="43.18" x2="111.76" y2="43.18" width="0.1524" layer="91"/>
+<label x="99.06" y="43.18" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="+5V" class="0">
@@ -2266,30 +1889,12 @@ Source: http://focus.ti.com/lit/ds/symlink/ua78l05.pdf</description>
 <pinref part="P+1" gate="1" pin="+5V"/>
 </segment>
 <segment>
-<pinref part="IC9" gate="G$1" pin="VO"/>
-<pinref part="C82" gate="G$1" pin="P$2"/>
-<wire x1="-63.5" y1="180.34" x2="-50.8" y2="180.34" width="0.1524" layer="91"/>
-<wire x1="-50.8" y1="186.69" x2="-50.8" y2="180.34" width="0.1524" layer="91"/>
-<junction x="-50.8" y="180.34"/>
-<pinref part="P+2" gate="1" pin="+5V"/>
-</segment>
-</net>
-<net name="V+" class="0">
-<segment>
-<pinref part="IC9" gate="G$1" pin="VI"/>
-<pinref part="C79" gate="G$1" pin="P$1"/>
-<wire x1="-81.28" y1="180.34" x2="-91.44" y2="180.34" width="0.1524" layer="91"/>
-<pinref part="P+4" gate="1" pin="V+"/>
-<wire x1="-91.44" y1="185.42" x2="-91.44" y2="180.34" width="0.1524" layer="91"/>
-<junction x="-91.44" y="180.34"/>
-</segment>
-<segment>
 <pinref part="JP1" gate="G$1" pin="1"/>
 <pinref part="C84" gate="G$1" pin="P$2"/>
-<wire x1="-88.9" y1="215.9" x2="-53.34" y2="215.9" width="0.1524" layer="91"/>
-<pinref part="P+3" gate="1" pin="V+"/>
-<wire x1="-53.34" y1="220.98" x2="-53.34" y2="215.9" width="0.1524" layer="91"/>
-<junction x="-53.34" y="215.9"/>
+<wire x1="76.2" y1="124.46" x2="111.76" y2="124.46" width="0.1524" layer="91"/>
+<wire x1="111.76" y1="129.54" x2="111.76" y2="124.46" width="0.1524" layer="91"/>
+<junction x="111.76" y="124.46"/>
+<pinref part="P+2" gate="1" pin="+5V"/>
 </segment>
 </net>
 </nets>
