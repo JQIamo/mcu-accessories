@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="6.2">
+<eagle version="6.5.0">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<grid distance="0.05" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="no" active="no"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="no"/>
@@ -1895,6 +1895,62 @@
 <wire x1="111.76" y1="129.54" x2="111.76" y2="124.46" width="0.1524" layer="91"/>
 <junction x="111.76" y="124.46"/>
 <pinref part="P+2" gate="1" pin="+5V"/>
+</segment>
+</net>
+<net name="DDS3_RESET" class="0">
+<segment>
+<pinref part="TEENSY" gate="G$1" pin="25/T/PWM"/>
+<wire x1="93.98" y1="22.86" x2="111.76" y2="22.86" width="0.1524" layer="91"/>
+<label x="99.06" y="22.86" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="DDS3_CS" class="0">
+<segment>
+<pinref part="TEENSY" gate="G$1" pin="26/A15"/>
+<wire x1="93.98" y1="25.4" x2="111.76" y2="25.4" width="0.1524" layer="91"/>
+<label x="99.06" y="25.4" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="DDS3_PS0" class="0">
+<segment>
+<pinref part="TEENSY" gate="G$1" pin="27/A16"/>
+<wire x1="93.98" y1="27.94" x2="111.76" y2="27.94" width="0.1524" layer="91"/>
+<label x="99.06" y="27.94" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="DDS3_IOUPDATE" class="0">
+<segment>
+<pinref part="TEENSY" gate="G$1" pin="28/A17"/>
+<wire x1="93.98" y1="30.48" x2="111.76" y2="30.48" width="0.1524" layer="91"/>
+<label x="99.06" y="30.48" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="PLL3_LE" class="0">
+<segment>
+<pinref part="TEENSY" gate="G$1" pin="30/A19/SDA1"/>
+<wire x1="93.98" y1="35.56" x2="111.76" y2="35.56" width="0.1524" layer="91"/>
+<label x="99.06" y="35.56" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="PLL4_MUX" class="0">
+<segment>
+<pinref part="TEENSY" gate="G$1" pin="31/A20"/>
+<wire x1="93.98" y1="38.1" x2="111.76" y2="38.1" width="0.1524" layer="91"/>
+<label x="99.06" y="38.1" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="PLL4_LE" class="0">
+<segment>
+<pinref part="TEENSY" gate="G$1" pin="32/T/PWM"/>
+<wire x1="93.98" y1="40.64" x2="111.76" y2="40.64" width="0.1524" layer="91"/>
+<label x="99.06" y="40.64" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="PLL3_MUX" class="0">
+<segment>
+<pinref part="TEENSY" gate="G$1" pin="29/A18/SCL1"/>
+<wire x1="93.98" y1="33.02" x2="111.76" y2="33.02" width="0.1524" layer="91"/>
+<label x="99.06" y="33.02" size="1.778" layer="95"/>
 </segment>
 </net>
 </nets>
