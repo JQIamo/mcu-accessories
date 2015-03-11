@@ -8,34 +8,34 @@
 </settings>
 <grid distance="0.05" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
-<layer number="1" name="Top" color="4" fill="1" visible="no" active="no"/>
-<layer number="2" name="Route2" color="1" fill="3" visible="no" active="no"/>
-<layer number="3" name="Route3" color="4" fill="3" visible="no" active="no"/>
-<layer number="4" name="Route4" color="1" fill="4" visible="no" active="no"/>
-<layer number="5" name="Route5" color="4" fill="4" visible="no" active="no"/>
-<layer number="6" name="Route6" color="1" fill="8" visible="no" active="no"/>
-<layer number="7" name="Route7" color="4" fill="8" visible="no" active="no"/>
-<layer number="8" name="Route8" color="1" fill="2" visible="no" active="no"/>
-<layer number="9" name="Route9" color="4" fill="2" visible="no" active="no"/>
-<layer number="10" name="Route10" color="1" fill="7" visible="no" active="no"/>
-<layer number="11" name="Route11" color="4" fill="7" visible="no" active="no"/>
-<layer number="12" name="Route12" color="1" fill="5" visible="no" active="no"/>
-<layer number="13" name="Route13" color="4" fill="5" visible="no" active="no"/>
-<layer number="14" name="Route14" color="1" fill="6" visible="no" active="no"/>
-<layer number="15" name="Route15" color="4" fill="6" visible="no" active="no"/>
-<layer number="16" name="Bottom" color="1" fill="1" visible="no" active="no"/>
-<layer number="17" name="Pads" color="2" fill="1" visible="no" active="no"/>
-<layer number="18" name="Vias" color="2" fill="1" visible="no" active="no"/>
-<layer number="19" name="Unrouted" color="6" fill="1" visible="no" active="no"/>
-<layer number="20" name="Dimension" color="15" fill="1" visible="no" active="no"/>
-<layer number="21" name="tPlace" color="7" fill="1" visible="no" active="no"/>
-<layer number="22" name="bPlace" color="7" fill="1" visible="no" active="no"/>
-<layer number="23" name="tOrigins" color="15" fill="1" visible="no" active="no"/>
-<layer number="24" name="bOrigins" color="15" fill="1" visible="no" active="no"/>
-<layer number="25" name="tNames" color="7" fill="1" visible="no" active="no"/>
-<layer number="26" name="bNames" color="7" fill="1" visible="no" active="no"/>
-<layer number="27" name="tValues" color="7" fill="1" visible="no" active="no"/>
-<layer number="28" name="bValues" color="7" fill="1" visible="no" active="no"/>
+<layer number="1" name="Top" color="4" fill="1" visible="yes" active="no"/>
+<layer number="2" name="Route2" color="1" fill="3" visible="yes" active="no"/>
+<layer number="3" name="Route3" color="4" fill="3" visible="yes" active="no"/>
+<layer number="4" name="Route4" color="1" fill="4" visible="yes" active="no"/>
+<layer number="5" name="Route5" color="4" fill="4" visible="yes" active="no"/>
+<layer number="6" name="Route6" color="1" fill="8" visible="yes" active="no"/>
+<layer number="7" name="Route7" color="4" fill="8" visible="yes" active="no"/>
+<layer number="8" name="Route8" color="1" fill="2" visible="yes" active="no"/>
+<layer number="9" name="Route9" color="4" fill="2" visible="yes" active="no"/>
+<layer number="10" name="Route10" color="1" fill="7" visible="yes" active="no"/>
+<layer number="11" name="Route11" color="4" fill="7" visible="yes" active="no"/>
+<layer number="12" name="Route12" color="1" fill="5" visible="yes" active="no"/>
+<layer number="13" name="Route13" color="4" fill="5" visible="yes" active="no"/>
+<layer number="14" name="Route14" color="1" fill="6" visible="yes" active="no"/>
+<layer number="15" name="Route15" color="4" fill="6" visible="yes" active="no"/>
+<layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="no"/>
+<layer number="17" name="Pads" color="2" fill="1" visible="yes" active="no"/>
+<layer number="18" name="Vias" color="2" fill="1" visible="yes" active="no"/>
+<layer number="19" name="Unrouted" color="6" fill="1" visible="yes" active="no"/>
+<layer number="20" name="Dimension" color="15" fill="1" visible="yes" active="no"/>
+<layer number="21" name="tPlace" color="7" fill="1" visible="yes" active="no"/>
+<layer number="22" name="bPlace" color="7" fill="1" visible="yes" active="no"/>
+<layer number="23" name="tOrigins" color="15" fill="1" visible="yes" active="no"/>
+<layer number="24" name="bOrigins" color="15" fill="1" visible="yes" active="no"/>
+<layer number="25" name="tNames" color="7" fill="1" visible="yes" active="no"/>
+<layer number="26" name="bNames" color="7" fill="1" visible="yes" active="no"/>
+<layer number="27" name="tValues" color="7" fill="1" visible="yes" active="no"/>
+<layer number="28" name="bValues" color="7" fill="1" visible="yes" active="no"/>
 <layer number="29" name="tStop" color="7" fill="3" visible="no" active="no"/>
 <layer number="30" name="bStop" color="7" fill="6" visible="no" active="no"/>
 <layer number="31" name="tCream" color="7" fill="4" visible="no" active="no"/>
@@ -44,8 +44,8 @@
 <layer number="34" name="bFinish" color="6" fill="6" visible="no" active="no"/>
 <layer number="35" name="tGlue" color="7" fill="4" visible="no" active="no"/>
 <layer number="36" name="bGlue" color="7" fill="5" visible="no" active="no"/>
-<layer number="37" name="tTest" color="7" fill="1" visible="no" active="no"/>
-<layer number="38" name="bTest" color="7" fill="1" visible="no" active="no"/>
+<layer number="37" name="tTest" color="7" fill="1" visible="yes" active="no"/>
+<layer number="38" name="bTest" color="7" fill="1" visible="yes" active="no"/>
 <layer number="39" name="tKeepout" color="4" fill="11" visible="no" active="no"/>
 <layer number="40" name="bKeepout" color="1" fill="11" visible="no" active="no"/>
 <layer number="41" name="tRestrict" color="4" fill="10" visible="no" active="no"/>
@@ -53,18 +53,18 @@
 <layer number="43" name="vRestrict" color="2" fill="10" visible="no" active="no"/>
 <layer number="44" name="Drills" color="7" fill="1" visible="no" active="no"/>
 <layer number="45" name="Holes" color="7" fill="1" visible="no" active="no"/>
-<layer number="46" name="Milling" color="3" fill="1" visible="no" active="no"/>
-<layer number="47" name="Measures" color="7" fill="1" visible="no" active="no"/>
-<layer number="48" name="Document" color="7" fill="1" visible="no" active="no"/>
-<layer number="49" name="Reference" color="7" fill="1" visible="no" active="no"/>
-<layer number="50" name="dxf" color="7" fill="1" visible="no" active="no"/>
-<layer number="51" name="tDocu" color="7" fill="1" visible="no" active="no"/>
-<layer number="52" name="bDocu" color="7" fill="1" visible="no" active="no"/>
-<layer number="53" name="tGND_GNDA" color="7" fill="9" visible="no" active="no"/>
-<layer number="54" name="bGND_GNDA" color="1" fill="9" visible="no" active="no"/>
-<layer number="56" name="wert" color="7" fill="1" visible="no" active="no"/>
-<layer number="59" name="Invisible" color="7" fill="1" visible="no" active="no"/>
-<layer number="61" name="stand" color="7" fill="1" visible="no" active="no"/>
+<layer number="46" name="Milling" color="3" fill="1" visible="yes" active="no"/>
+<layer number="47" name="Measures" color="7" fill="1" visible="yes" active="no"/>
+<layer number="48" name="Document" color="7" fill="1" visible="yes" active="no"/>
+<layer number="49" name="Reference" color="7" fill="1" visible="yes" active="no"/>
+<layer number="50" name="dxf" color="7" fill="1" visible="yes" active="no"/>
+<layer number="51" name="tDocu" color="7" fill="1" visible="yes" active="no"/>
+<layer number="52" name="bDocu" color="7" fill="1" visible="yes" active="no"/>
+<layer number="53" name="tGND_GNDA" color="7" fill="9" visible="yes" active="no"/>
+<layer number="54" name="bGND_GNDA" color="1" fill="9" visible="yes" active="no"/>
+<layer number="56" name="wert" color="7" fill="1" visible="yes" active="no"/>
+<layer number="59" name="Invisible" color="7" fill="1" visible="yes" active="no"/>
+<layer number="61" name="stand" color="7" fill="1" visible="yes" active="no"/>
 <layer number="91" name="Nets" color="2" fill="1" visible="yes" active="yes"/>
 <layer number="92" name="Busses" color="1" fill="1" visible="yes" active="yes"/>
 <layer number="93" name="Pins" color="2" fill="1" visible="no" active="yes"/>
@@ -135,72 +135,54 @@
 <libraries>
 <library name="mcu-accessories">
 <packages>
-<package name="TEENSY_3.1_ALLPINS">
-<pad name="GND" x="-7.62" y="17.78" drill="0.9652"/>
-<pad name="0" x="-7.62" y="15.24" drill="0.9652"/>
-<pad name="1" x="-7.62" y="12.7" drill="0.9652"/>
-<pad name="2" x="-7.62" y="10.16" drill="0.9652"/>
-<pad name="3" x="-7.62" y="7.62" drill="0.9652"/>
-<pad name="4" x="-7.62" y="5.08" drill="0.9652"/>
-<pad name="5" x="-7.62" y="2.54" drill="0.9652"/>
-<pad name="6" x="-7.62" y="0" drill="0.9652"/>
-<pad name="7" x="-7.62" y="-2.54" drill="0.9652"/>
-<pad name="8" x="-7.62" y="-5.08" drill="0.9652"/>
-<pad name="9" x="-7.62" y="-7.62" drill="0.9652"/>
-<pad name="10" x="-7.62" y="-10.16" drill="0.9652"/>
-<pad name="11" x="-7.62" y="-12.7" drill="0.9652"/>
-<pad name="12" x="-7.62" y="-15.24" drill="0.9652"/>
-<pad name="VBAT" x="-5.08" y="-15.24" drill="0.9652"/>
-<pad name="3.3V1" x="-2.54" y="-15.24" drill="0.9652"/>
-<pad name="GND1" x="0" y="-15.24" drill="0.9652"/>
-<pad name="PGM" x="2.54" y="-15.24" drill="0.9652"/>
-<pad name="A14" x="5.08" y="-15.24" drill="0.9652"/>
-<pad name="13" x="7.62" y="-15.24" drill="0.9652"/>
-<pad name="14/A0" x="7.62" y="-12.7" drill="0.9652"/>
-<pad name="15/A1" x="7.62" y="-10.16" drill="0.9652"/>
-<pad name="16/A2" x="7.62" y="-7.62" drill="0.9652"/>
-<pad name="17/A3" x="7.62" y="-5.08" drill="0.9652"/>
-<pad name="18/A4" x="7.62" y="-2.54" drill="0.9652"/>
-<pad name="19/A5" x="7.62" y="0" drill="0.9652"/>
-<pad name="20/A6" x="7.62" y="2.54" drill="0.9652"/>
-<pad name="21/A7" x="7.62" y="5.08" drill="0.9652"/>
-<pad name="22/A8" x="7.62" y="7.62" drill="0.9652"/>
-<pad name="23/A9" x="7.62" y="10.16" drill="0.9652"/>
-<pad name="3.3V" x="7.62" y="12.7" drill="0.9652"/>
-<pad name="AGND" x="7.62" y="15.24" drill="0.9652"/>
-<pad name="VIN" x="7.62" y="17.78" drill="0.9652"/>
-<wire x1="-8.89" y1="19.05" x2="8.89" y2="19.05" width="0.127" layer="51"/>
-<wire x1="8.89" y1="19.05" x2="8.89" y2="-16.51" width="0.127" layer="51"/>
-<wire x1="8.89" y1="-16.51" x2="-8.89" y2="-16.51" width="0.127" layer="51"/>
-<wire x1="-8.89" y1="-16.51" x2="-8.89" y2="19.05" width="0.127" layer="51"/>
-<wire x1="-1.27" y1="17.78" x2="1.27" y2="17.78" width="0.2032" layer="21"/>
-<wire x1="1.27" y1="17.78" x2="1.27" y2="19.05" width="0.2032" layer="21"/>
-<wire x1="1.27" y1="19.05" x2="8.89" y2="19.05" width="0.2032" layer="21"/>
-<wire x1="8.89" y1="19.05" x2="8.89" y2="-16.51" width="0.2032" layer="21"/>
-<wire x1="8.89" y1="-16.51" x2="-8.89" y2="-16.51" width="0.2032" layer="21"/>
-<wire x1="-8.89" y1="-16.51" x2="-8.89" y2="19.05" width="0.2032" layer="21"/>
-<wire x1="-8.89" y1="19.05" x2="-1.27" y2="19.05" width="0.2032" layer="21"/>
-<wire x1="-1.27" y1="19.05" x2="-1.27" y2="17.78" width="0.2032" layer="21"/>
-<text x="-3.81" y="15.24" size="1.27" layer="25" font="vector">&gt;NAME</text>
-<text x="-3.81" y="6.35" size="1.27" layer="27" font="vector">&gt;VALUE</text>
-<pad name="VUSB" x="5.08" y="15.24" drill="0.9652"/>
-<pad name="AREF" x="5.08" y="10.16" drill="0.9652"/>
-<pad name="A10" x="5.08" y="7.62" drill="0.9652"/>
-<pad name="A11" x="5.08" y="5.08" drill="0.9652"/>
-<pad name="28" x="0" y="-12.7" drill="0.9652"/>
-<pad name="29" x="2.54" y="-12.7" drill="0.9652"/>
-<pad name="27" x="0" y="-10.16" drill="0.9652"/>
-<pad name="26" x="0" y="-7.62" drill="0.9652"/>
-<pad name="25" x="0" y="-5.08" drill="0.9652"/>
-<pad name="24" x="0" y="-2.54" drill="0.9652"/>
-<pad name="30" x="2.54" y="-10.16" drill="0.9652"/>
-<pad name="31" x="2.54" y="-7.62" drill="0.9652"/>
-<pad name="32" x="2.54" y="-5.08" drill="0.9652"/>
-<pad name="33" x="2.54" y="-2.54" drill="0.9652"/>
-<pad name="3.3V2" x="2.54" y="0" drill="0.9652"/>
-<pad name="A13" x="2.54" y="2.54" drill="0.9652"/>
-<pad name="GND2" x="0" y="0" drill="0.9652"/>
-<pad name="A12" x="0" y="2.54" drill="0.9652"/>
+<package name="TEENSY_3.1_BASIC">
+<pad name="GND" x="-7.62" y="16.51" drill="0.9652"/>
+<pad name="0" x="-7.62" y="13.97" drill="0.9652"/>
+<pad name="1" x="-7.62" y="11.43" drill="0.9652"/>
+<pad name="2" x="-7.62" y="8.89" drill="0.9652"/>
+<pad name="3" x="-7.62" y="6.35" drill="0.9652"/>
+<pad name="4" x="-7.62" y="3.81" drill="0.9652"/>
+<pad name="5" x="-7.62" y="1.27" drill="0.9652"/>
+<pad name="6" x="-7.62" y="-1.27" drill="0.9652"/>
+<pad name="7" x="-7.62" y="-3.81" drill="0.9652"/>
+<pad name="8" x="-7.62" y="-6.35" drill="0.9652"/>
+<pad name="9" x="-7.62" y="-8.89" drill="0.9652"/>
+<pad name="10" x="-7.62" y="-11.43" drill="0.9652"/>
+<pad name="11" x="-7.62" y="-13.97" drill="0.9652"/>
+<pad name="12" x="-7.62" y="-16.51" drill="0.9652"/>
+<pad name="VBAT" x="-5.08" y="-16.51" drill="0.9652"/>
+<pad name="3.3V1" x="-2.54" y="-16.51" drill="0.9652"/>
+<pad name="GND1" x="0" y="-16.51" drill="0.9652"/>
+<pad name="PGM" x="2.54" y="-16.51" drill="0.9652"/>
+<pad name="A14" x="5.08" y="-16.51" drill="0.9652"/>
+<pad name="13" x="7.62" y="-16.51" drill="0.9652"/>
+<pad name="14/A0" x="7.62" y="-13.97" drill="0.9652"/>
+<pad name="15/A1" x="7.62" y="-11.43" drill="0.9652"/>
+<pad name="16/A2" x="7.62" y="-8.89" drill="0.9652"/>
+<pad name="17/A3" x="7.62" y="-6.35" drill="0.9652"/>
+<pad name="18/A4" x="7.62" y="-3.81" drill="0.9652"/>
+<pad name="19/A5" x="7.62" y="-1.27" drill="0.9652"/>
+<pad name="20/A6" x="7.62" y="1.27" drill="0.9652"/>
+<pad name="21/A7" x="7.62" y="3.81" drill="0.9652"/>
+<pad name="22/A8" x="7.62" y="6.35" drill="0.9652"/>
+<pad name="23/A9" x="7.62" y="8.89" drill="0.9652"/>
+<pad name="3.3V" x="7.62" y="11.43" drill="0.9652"/>
+<pad name="AGND" x="7.62" y="13.97" drill="0.9652"/>
+<wire x1="-8.89" y1="17.78" x2="8.89" y2="17.78" width="0.127" layer="51"/>
+<wire x1="8.89" y1="17.78" x2="8.89" y2="-17.78" width="0.127" layer="51"/>
+<wire x1="8.89" y1="-17.78" x2="-8.89" y2="-17.78" width="0.127" layer="51"/>
+<wire x1="-8.89" y1="-17.78" x2="-8.89" y2="17.78" width="0.127" layer="51"/>
+<wire x1="-1.27" y1="16.51" x2="1.27" y2="16.51" width="0.2032" layer="21"/>
+<wire x1="1.27" y1="16.51" x2="1.27" y2="17.78" width="0.2032" layer="21"/>
+<wire x1="1.27" y1="17.78" x2="8.89" y2="17.78" width="0.2032" layer="21"/>
+<wire x1="8.89" y1="17.78" x2="8.89" y2="-17.78" width="0.2032" layer="21"/>
+<wire x1="8.89" y1="-17.78" x2="-8.89" y2="-17.78" width="0.2032" layer="21"/>
+<wire x1="-8.89" y1="-17.78" x2="-8.89" y2="17.78" width="0.2032" layer="21"/>
+<wire x1="-8.89" y1="17.78" x2="-1.27" y2="17.78" width="0.2032" layer="21"/>
+<wire x1="-1.27" y1="17.78" x2="-1.27" y2="16.51" width="0.2032" layer="21"/>
+<text x="-3.81" y="13.97" size="1.27" layer="25" font="vector">&gt;NAME</text>
+<text x="-3.81" y="5.08" size="1.27" layer="27" font="vector">&gt;VALUE</text>
+<pad name="VIN" x="7.62" y="16.51" drill="0.9652"/>
 </package>
 <package name="ML16">
 <description>&lt;b&gt;HARTING&lt;/b&gt;</description>
@@ -567,7 +549,7 @@
 </package>
 </packages>
 <symbols>
-<symbol name="TEENSY_3.1_ALLPINS">
+<symbol name="TEENSY_3.1_BASIC">
 <wire x1="-17.78" y1="-35.56" x2="17.78" y2="-35.56" width="0.254" layer="94"/>
 <wire x1="17.78" y1="-35.56" x2="17.78" y2="33.02" width="0.254" layer="94"/>
 <wire x1="17.78" y1="33.02" x2="-17.78" y2="33.02" width="0.254" layer="94"/>
@@ -586,7 +568,6 @@
 <pin name="1/TX1/T" x="-22.86" y="25.4" visible="pin" length="middle"/>
 <pin name="0/RX1/T" x="-22.86" y="27.94" visible="pin" length="middle"/>
 <pin name="GND" x="22.86" y="20.32" visible="pin" length="middle" direction="pwr" rot="R180"/>
-<pin name="VIN" x="22.86" y="27.94" visible="pin" length="middle" direction="pwr" rot="R180"/>
 <pin name="AGND" x="22.86" y="7.62" visible="pin" length="middle" direction="pwr" rot="R180"/>
 <pin name="3.3V" x="22.86" y="25.4" visible="pin" length="middle" direction="pwr" rot="R180"/>
 <pin name="23/A9/T/PWM" x="-22.86" y="-30.48" visible="pin" length="middle"/>
@@ -604,23 +585,8 @@
 <pin name="VBAT" x="22.86" y="22.86" visible="pin" length="middle" direction="pwr" rot="R180"/>
 <text x="-5.588" y="34.29" size="1.27" layer="95" font="vector" ratio="15">&gt;NAME</text>
 <text x="-2.794" y="-38.1" size="1.27" layer="96" font="vector" ratio="15">&gt;VALUE</text>
-<pin name="A10" x="22.86" y="-7.62" visible="pin" length="middle" rot="R180"/>
-<pin name="A11" x="22.86" y="-5.08" visible="pin" length="middle" rot="R180"/>
-<pin name="AREF" x="22.86" y="10.16" visible="pin" length="middle" direction="pwr" rot="R180"/>
-<pin name="VUSB" x="22.86" y="30.48" visible="pin" length="middle" direction="pwr" rot="R180"/>
-<pin name="24" x="-22.86" y="-33.02" visible="pin" length="middle"/>
-<pin name="25/T/PWM" x="22.86" y="-33.02" visible="pin" length="middle" rot="R180"/>
-<pin name="26/A15" x="22.86" y="-30.48" visible="pin" length="middle" rot="R180"/>
-<pin name="27/A16" x="22.86" y="-27.94" visible="pin" length="middle" rot="R180"/>
-<pin name="28/A17" x="22.86" y="-25.4" visible="pin" length="middle" rot="R180"/>
-<pin name="29/A18/SCL1" x="22.86" y="-22.86" visible="pin" length="middle" rot="R180"/>
-<pin name="30/A19/SDA1" x="22.86" y="-20.32" visible="pin" length="middle" rot="R180"/>
-<pin name="31/A20" x="22.86" y="-17.78" visible="pin" length="middle" rot="R180"/>
-<pin name="32/T/PWM" x="22.86" y="-15.24" visible="pin" length="middle" rot="R180"/>
-<pin name="33/T" x="22.86" y="-12.7" visible="pin" length="middle" rot="R180"/>
-<pin name="A12" x="22.86" y="-2.54" visible="pin" length="middle" rot="R180"/>
-<pin name="A13" x="22.86" y="0" visible="pin" length="middle" rot="R180"/>
 <pin name="A14/DAC" x="22.86" y="2.54" visible="pin" length="middle" rot="R180"/>
+<pin name="VIN" x="22.86" y="27.94" visible="pin" length="middle" direction="pwr" rot="R180"/>
 </symbol>
 <symbol name="16P">
 <wire x1="3.81" y1="-12.7" x2="-3.81" y2="-12.7" width="0.4064" layer="94"/>
@@ -665,13 +631,13 @@
 </symbol>
 </symbols>
 <devicesets>
-<deviceset name="TEENSY_3.1_ALL_PINS_AND_PADS">
-<description>Footprint for Teensy 3.1 board using all pads and all through-holes. Pads need a 2x7 0.1" SMD header.</description>
+<deviceset name="TEENSY_3.1_BASIC">
+<description>Footprint for Teensy 3.1 board using all pin connections on the outer perimeter</description>
 <gates>
-<gate name="G$1" symbol="TEENSY_3.1_ALLPINS" x="0" y="0"/>
+<gate name="G$1" symbol="TEENSY_3.1_BASIC" x="0" y="0"/>
 </gates>
 <devices>
-<device name="" package="TEENSY_3.1_ALLPINS">
+<device name="" package="TEENSY_3.1_BASIC">
 <connects>
 <connect gate="G$1" pin="0/RX1/T" pad="0"/>
 <connect gate="G$1" pin="1/TX1/T" pad="1"/>
@@ -690,36 +656,20 @@
 <connect gate="G$1" pin="21/A7/PWM" pad="21/A7"/>
 <connect gate="G$1" pin="22/A8/T/PWM" pad="22/A8"/>
 <connect gate="G$1" pin="23/A9/T/PWM" pad="23/A9"/>
-<connect gate="G$1" pin="24" pad="24"/>
-<connect gate="G$1" pin="25/T/PWM" pad="25"/>
-<connect gate="G$1" pin="26/A15" pad="26"/>
-<connect gate="G$1" pin="27/A16" pad="27"/>
-<connect gate="G$1" pin="28/A17" pad="28"/>
-<connect gate="G$1" pin="29/A18/SCL1" pad="29"/>
-<connect gate="G$1" pin="3.3V" pad="3.3V 3.3V1 3.3V2"/>
+<connect gate="G$1" pin="3.3V" pad="3.3V 3.3V1"/>
 <connect gate="G$1" pin="3/CAN-TX/PWM" pad="3"/>
-<connect gate="G$1" pin="30/A19/SDA1" pad="30"/>
-<connect gate="G$1" pin="31/A20" pad="31"/>
-<connect gate="G$1" pin="32/T/PWM" pad="32"/>
-<connect gate="G$1" pin="33/T" pad="33"/>
 <connect gate="G$1" pin="4/CAN-RX-PWM" pad="4"/>
 <connect gate="G$1" pin="5/PWM" pad="5"/>
 <connect gate="G$1" pin="6/PWM" pad="6"/>
 <connect gate="G$1" pin="7/RX3" pad="7"/>
 <connect gate="G$1" pin="8/TX3" pad="8"/>
 <connect gate="G$1" pin="9/RX2/PWM" pad="9"/>
-<connect gate="G$1" pin="A10" pad="A10"/>
-<connect gate="G$1" pin="A11" pad="A11"/>
-<connect gate="G$1" pin="A12" pad="A12"/>
-<connect gate="G$1" pin="A13" pad="A13"/>
 <connect gate="G$1" pin="A14/DAC" pad="A14"/>
 <connect gate="G$1" pin="AGND" pad="AGND"/>
-<connect gate="G$1" pin="AREF" pad="AREF"/>
-<connect gate="G$1" pin="GND" pad="GND GND1 GND2"/>
+<connect gate="G$1" pin="GND" pad="GND GND1"/>
 <connect gate="G$1" pin="PGM" pad="PGM"/>
 <connect gate="G$1" pin="VBAT" pad="VBAT"/>
 <connect gate="G$1" pin="VIN" pad="VIN"/>
-<connect gate="G$1" pin="VUSB" pad="VUSB"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -1370,7 +1320,7 @@
 </class>
 </classes>
 <parts>
-<part name="TEENSY" library="mcu-accessories" deviceset="TEENSY_3.1_ALL_PINS_AND_PADS" device=""/>
+<part name="TEENSY" library="mcu-accessories" deviceset="TEENSY_3.1_BASIC" device=""/>
 <part name="LCD" library="mcu-accessories" deviceset="ML16" device="">
 <attribute name="PARTNO" value="S9171-ND"/>
 </part>
@@ -1556,9 +1506,9 @@
 <label x="-22.86" y="86.36" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="TEENSY" gate="G$1" pin="10/TX2/PWM"/>
-<wire x1="48.26" y1="58.42" x2="27.94" y2="58.42" width="0.1524" layer="91"/>
-<label x="27.94" y="58.42" size="1.778" layer="95"/>
+<pinref part="TEENSY" gate="G$1" pin="15/A1/T"/>
+<wire x1="48.26" y1="45.72" x2="27.94" y2="45.72" width="0.1524" layer="91"/>
+<label x="25.4" y="45.72" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="LCD_RS" class="0">
@@ -1568,9 +1518,9 @@
 <label x="-22.86" y="83.82" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="TEENSY" gate="G$1" pin="9/RX2/PWM"/>
-<wire x1="48.26" y1="60.96" x2="27.94" y2="60.96" width="0.1524" layer="91"/>
-<label x="27.94" y="60.96" size="1.778" layer="95"/>
+<pinref part="TEENSY" gate="G$1" pin="16/A2/T"/>
+<wire x1="48.26" y1="43.18" x2="27.94" y2="43.18" width="0.1524" layer="91"/>
+<label x="25.4" y="43.18" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="LCD_RST" class="0">
@@ -1580,9 +1530,9 @@
 <label x="-22.86" y="81.28" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="TEENSY" gate="G$1" pin="8/TX3"/>
-<wire x1="48.26" y1="63.5" x2="27.94" y2="63.5" width="0.1524" layer="91"/>
-<label x="27.94" y="63.5" size="1.778" layer="95"/>
+<pinref part="TEENSY" gate="G$1" pin="17/A3/T"/>
+<wire x1="48.26" y1="40.64" x2="27.94" y2="40.64" width="0.1524" layer="91"/>
+<label x="25.4" y="40.64" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="MOSI" class="0">
@@ -1656,9 +1606,9 @@
 <label x="-50.8" y="55.88" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="TEENSY" gate="G$1" pin="15/A1/T"/>
-<wire x1="48.26" y1="45.72" x2="27.94" y2="45.72" width="0.1524" layer="91"/>
-<label x="25.4" y="45.72" size="1.778" layer="95"/>
+<pinref part="TEENSY" gate="G$1" pin="2"/>
+<wire x1="48.26" y1="78.74" x2="27.94" y2="78.74" width="0.1524" layer="91"/>
+<label x="25.4" y="78.74" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="PLL1_MUX" class="0">
@@ -1680,9 +1630,9 @@
 <label x="-50.8" y="38.1" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="TEENSY" gate="G$1" pin="17/A3/T"/>
-<wire x1="48.26" y1="40.64" x2="27.94" y2="40.64" width="0.1524" layer="91"/>
-<label x="25.4" y="40.64" size="1.778" layer="95"/>
+<pinref part="TEENSY" gate="G$1" pin="1/TX1/T"/>
+<wire x1="48.26" y1="81.28" x2="27.94" y2="81.28" width="0.1524" layer="91"/>
+<label x="25.4" y="81.28" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="PLL2_MUX" class="0">
@@ -1692,9 +1642,9 @@
 <label x="-50.8" y="35.56" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="TEENSY" gate="G$1" pin="16/A2/T"/>
-<wire x1="48.26" y1="43.18" x2="27.94" y2="43.18" width="0.1524" layer="91"/>
-<label x="25.4" y="43.18" size="1.778" layer="95"/>
+<pinref part="TEENSY" gate="G$1" pin="18/A4/T/SDA0"/>
+<wire x1="48.26" y1="38.1" x2="27.94" y2="38.1" width="0.1524" layer="91"/>
+<label x="25.4" y="38.1" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="DDS1_RESET" class="0">
@@ -1704,9 +1654,9 @@
 <label x="35.56" y="162.56" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="TEENSY" gate="G$1" pin="0/RX1/T"/>
-<wire x1="48.26" y1="83.82" x2="27.94" y2="83.82" width="0.1524" layer="91"/>
-<label x="25.4" y="83.82" size="1.778" layer="95"/>
+<pinref part="TEENSY" gate="G$1" pin="3/CAN-TX/PWM"/>
+<wire x1="48.26" y1="76.2" x2="27.94" y2="76.2" width="0.1524" layer="91"/>
+<label x="25.4" y="76.2" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="DDS1_CS" class="0">
@@ -1716,9 +1666,9 @@
 <label x="35.56" y="160.02" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="TEENSY" gate="G$1" pin="1/TX1/T"/>
-<wire x1="48.26" y1="81.28" x2="27.94" y2="81.28" width="0.1524" layer="91"/>
-<label x="25.4" y="81.28" size="1.778" layer="95"/>
+<pinref part="TEENSY" gate="G$1" pin="4/CAN-RX-PWM"/>
+<wire x1="48.26" y1="73.66" x2="27.94" y2="73.66" width="0.1524" layer="91"/>
+<label x="25.4" y="73.66" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="DDS2_RESET" class="0">
@@ -1728,9 +1678,9 @@
 <label x="35.56" y="132.08" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="TEENSY" gate="G$1" pin="4/CAN-RX-PWM"/>
-<wire x1="48.26" y1="73.66" x2="27.94" y2="73.66" width="0.1524" layer="91"/>
-<label x="25.4" y="73.66" size="1.778" layer="95"/>
+<pinref part="TEENSY" gate="G$1" pin="8/TX3"/>
+<wire x1="48.26" y1="63.5" x2="27.94" y2="63.5" width="0.1524" layer="91"/>
+<label x="27.94" y="63.5" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="DDS2_CS" class="0">
@@ -1740,16 +1690,9 @@
 <label x="35.56" y="129.54" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="TEENSY" gate="G$1" pin="5/PWM"/>
-<wire x1="48.26" y1="71.12" x2="27.94" y2="71.12" width="0.1524" layer="91"/>
-<label x="25.4" y="71.12" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="DDS4_RESET" class="0">
-<segment>
-<pinref part="TEENSY" gate="G$1" pin="18/A4/T/SDA0"/>
-<wire x1="48.26" y1="38.1" x2="27.94" y2="38.1" width="0.1524" layer="91"/>
-<label x="25.4" y="38.1" size="1.778" layer="95"/>
+<pinref part="TEENSY" gate="G$1" pin="9/RX2/PWM"/>
+<wire x1="48.26" y1="60.96" x2="27.94" y2="60.96" width="0.1524" layer="91"/>
+<label x="27.94" y="60.96" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="DDS4_CS" class="0">
@@ -1766,9 +1709,9 @@
 <label x="35.56" y="144.78" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="TEENSY" gate="G$1" pin="3/CAN-TX/PWM"/>
-<wire x1="48.26" y1="76.2" x2="27.94" y2="76.2" width="0.1524" layer="91"/>
-<label x="25.4" y="76.2" size="1.778" layer="95"/>
+<pinref part="TEENSY" gate="G$1" pin="6/PWM"/>
+<wire x1="48.26" y1="68.58" x2="27.94" y2="68.58" width="0.1524" layer="91"/>
+<label x="25.4" y="68.58" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="DDS2_IOUPDATE" class="0">
@@ -1790,9 +1733,9 @@
 <label x="35.56" y="119.38" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="TEENSY" gate="G$1" pin="6/PWM"/>
-<wire x1="48.26" y1="68.58" x2="27.94" y2="68.58" width="0.1524" layer="91"/>
-<label x="25.4" y="68.58" size="1.778" layer="95"/>
+<pinref part="TEENSY" gate="G$1" pin="10/TX2/PWM"/>
+<wire x1="48.26" y1="58.42" x2="27.94" y2="58.42" width="0.1524" layer="91"/>
+<label x="27.94" y="58.42" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="DDS1_PS0" class="0">
@@ -1802,47 +1745,33 @@
 <label x="35.56" y="149.86" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="TEENSY" gate="G$1" pin="2"/>
-<wire x1="48.26" y1="78.74" x2="27.94" y2="78.74" width="0.1524" layer="91"/>
-<label x="25.4" y="78.74" size="1.778" layer="95"/>
+<pinref part="TEENSY" gate="G$1" pin="5/PWM"/>
+<wire x1="48.26" y1="71.12" x2="27.94" y2="71.12" width="0.1524" layer="91"/>
+<label x="25.4" y="71.12" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="DDS4_IOUPDATE" class="0">
+<net name="ENC_B" class="0">
+<segment>
+<pinref part="ENC/SW" gate="1" pin="5"/>
+<wire x1="-30.48" y1="134.62" x2="-15.24" y2="134.62" width="0.1524" layer="91"/>
+<label x="-27.94" y="134.62" size="1.778" layer="95"/>
+</segment>
 <segment>
 <pinref part="TEENSY" gate="G$1" pin="21/A7/PWM"/>
 <wire x1="48.26" y1="30.48" x2="27.94" y2="30.48" width="0.1524" layer="91"/>
 <label x="25.4" y="30.48" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="DDS4_PS0" class="0">
-<segment>
-<pinref part="TEENSY" gate="G$1" pin="20/A6/PWM"/>
-<wire x1="48.26" y1="33.02" x2="27.94" y2="33.02" width="0.1524" layer="91"/>
-<label x="25.4" y="33.02" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="ENC_B" class="0">
-<segment>
-<pinref part="TEENSY" gate="G$1" pin="23/A9/T/PWM"/>
-<wire x1="48.26" y1="25.4" x2="27.94" y2="25.4" width="0.1524" layer="91"/>
-<label x="25.4" y="25.4" size="1.778" layer="95"/>
-</segment>
-<segment>
-<pinref part="ENC/SW" gate="1" pin="5"/>
-<wire x1="-30.48" y1="134.62" x2="-15.24" y2="134.62" width="0.1524" layer="91"/>
-<label x="-27.94" y="134.62" size="1.778" layer="95"/>
-</segment>
-</net>
 <net name="ENC_SW" class="0">
-<segment>
-<pinref part="TEENSY" gate="G$1" pin="24"/>
-<wire x1="48.26" y1="22.86" x2="27.94" y2="22.86" width="0.1524" layer="91"/>
-<label x="25.4" y="22.86" size="1.778" layer="95"/>
-</segment>
 <segment>
 <pinref part="ENC/SW" gate="1" pin="1"/>
 <wire x1="-30.48" y1="129.54" x2="-15.24" y2="129.54" width="0.1524" layer="91"/>
 <label x="-27.94" y="129.54" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="TEENSY" gate="G$1" pin="23/A9/T/PWM"/>
+<wire x1="48.26" y1="25.4" x2="27.94" y2="25.4" width="0.1524" layer="91"/>
+<label x="25.4" y="25.4" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="SETLIST_TRIG" class="0">
@@ -1859,14 +1788,14 @@
 </net>
 <net name="ENC_A" class="0">
 <segment>
-<pinref part="TEENSY" gate="G$1" pin="22/A8/T/PWM"/>
-<wire x1="48.26" y1="27.94" x2="27.94" y2="27.94" width="0.1524" layer="91"/>
-<label x="25.4" y="27.94" size="1.778" layer="95"/>
-</segment>
-<segment>
 <pinref part="ENC/SW" gate="1" pin="7"/>
 <wire x1="-30.48" y1="137.16" x2="-15.24" y2="137.16" width="0.1524" layer="91"/>
 <label x="-27.94" y="137.16" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="TEENSY" gate="G$1" pin="20/A6/PWM"/>
+<wire x1="48.26" y1="33.02" x2="27.94" y2="33.02" width="0.1524" layer="91"/>
+<label x="25.4" y="33.02" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="SW1" class="0">
@@ -1876,9 +1805,9 @@
 <label x="-25.4" y="132.08" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="TEENSY" gate="G$1" pin="33/T"/>
-<wire x1="93.98" y1="43.18" x2="111.76" y2="43.18" width="0.1524" layer="91"/>
-<label x="99.06" y="43.18" size="1.778" layer="95"/>
+<pinref part="TEENSY" gate="G$1" pin="22/A8/T/PWM"/>
+<wire x1="48.26" y1="27.94" x2="27.94" y2="27.94" width="0.1524" layer="91"/>
+<label x="25.4" y="27.94" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="+5V" class="0">
@@ -1895,62 +1824,6 @@
 <wire x1="111.76" y1="129.54" x2="111.76" y2="124.46" width="0.1524" layer="91"/>
 <junction x="111.76" y="124.46"/>
 <pinref part="P+2" gate="1" pin="+5V"/>
-</segment>
-</net>
-<net name="DDS3_RESET" class="0">
-<segment>
-<pinref part="TEENSY" gate="G$1" pin="25/T/PWM"/>
-<wire x1="93.98" y1="22.86" x2="111.76" y2="22.86" width="0.1524" layer="91"/>
-<label x="99.06" y="22.86" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="DDS3_CS" class="0">
-<segment>
-<pinref part="TEENSY" gate="G$1" pin="26/A15"/>
-<wire x1="93.98" y1="25.4" x2="111.76" y2="25.4" width="0.1524" layer="91"/>
-<label x="99.06" y="25.4" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="DDS3_PS0" class="0">
-<segment>
-<pinref part="TEENSY" gate="G$1" pin="27/A16"/>
-<wire x1="93.98" y1="27.94" x2="111.76" y2="27.94" width="0.1524" layer="91"/>
-<label x="99.06" y="27.94" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="DDS3_IOUPDATE" class="0">
-<segment>
-<pinref part="TEENSY" gate="G$1" pin="28/A17"/>
-<wire x1="93.98" y1="30.48" x2="111.76" y2="30.48" width="0.1524" layer="91"/>
-<label x="99.06" y="30.48" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="PLL3_LE" class="0">
-<segment>
-<pinref part="TEENSY" gate="G$1" pin="30/A19/SDA1"/>
-<wire x1="93.98" y1="35.56" x2="111.76" y2="35.56" width="0.1524" layer="91"/>
-<label x="99.06" y="35.56" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="PLL4_MUX" class="0">
-<segment>
-<pinref part="TEENSY" gate="G$1" pin="31/A20"/>
-<wire x1="93.98" y1="38.1" x2="111.76" y2="38.1" width="0.1524" layer="91"/>
-<label x="99.06" y="38.1" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="PLL4_LE" class="0">
-<segment>
-<pinref part="TEENSY" gate="G$1" pin="32/T/PWM"/>
-<wire x1="93.98" y1="40.64" x2="111.76" y2="40.64" width="0.1524" layer="91"/>
-<label x="99.06" y="40.64" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="PLL3_MUX" class="0">
-<segment>
-<pinref part="TEENSY" gate="G$1" pin="29/A18/SCL1"/>
-<wire x1="93.98" y1="33.02" x2="111.76" y2="33.02" width="0.1524" layer="91"/>
-<label x="99.06" y="33.02" size="1.778" layer="95"/>
 </segment>
 </net>
 </nets>
