@@ -52,10 +52,10 @@
 #define DDS3_PS0 		27
 #define DDS3_IOUPDATE 	28
 
-#define DDS4_RESET		18
-#define DDS4_CS			19
-#define DDS4_PS0		20
-#define DDS4_IOUPDATE	21
+#define DDS4_RESET		21
+#define DDS4_CS			20
+#define DDS4_PS0		19
+#define DDS4_IOUPDATE	18
 
 //! @}
 
@@ -71,9 +71,9 @@
 #define PLL2_MUX_D		16
 #define PLL2_LE			17
 
-#define PLL3_MUX		A18
-#define PLL3_MUX_D		29
-#define PLL3_LE			30
+#define PLL3_MUX		A19
+#define PLL3_MUX_D		30
+#define PLL3_LE			29
 
 #define PLL4_MUX		A20
 #define PLL4_MUX_D		31
@@ -90,8 +90,8 @@
 #define LCD_RS			9
 #define LCD_CSB			10
 
-#define ENC_A			22
-#define ENC_B			23
+#define ENC_A			23
+#define ENC_B			22
 #define ENC_SW			24
 
 #define SW1				33
@@ -103,8 +103,8 @@
  */
 //! @{
 
-#define MOSI			11
+#define TEENSY_MOSI		11
 #define SETLIST_TRIG	12
-#define CLK				13
+#define TEENSY_CLK		13
 
 //! @}
