@@ -1,5 +1,5 @@
 [Eagle]
-Version="06 05 00"
+Version="06 06 00"
 Platform="Mac OS X"
 Serial="7026C52C40-LSR-WLM-5CP"
 Globals="Globals"
@@ -68,11 +68,11 @@ Sheet=1
 
 [Win_2]
 Type="Control Panel"
-Loc="360 248 1351 687"
+Loc="246 87 1237 526"
 State=2
 Number=0
 
 [Desktop]
-Screen="1440 900"
+Screen="2560 1440"
 Window="Win_1"
 Window="Win_2"
