@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="6.6.0">
+<eagle version="7.7.0">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -622,18 +622,22 @@
 </class>
 </classes>
 <parts>
-<part name="U1" library="mcu-accessories" deviceset="NEWHAVEN_LCD" device=""/>
+<part name="U1" library="mcu-accessories" deviceset="NEWHAVEN_LCD" device="">
+<attribute name="PARTNO" value="NHD-C0216CZ-FSW-FBW-3V3"/>
+</part>
 <part name="C1" library="rlc-jqi" deviceset="CAP" device="0805" value="1uF">
-<attribute name="PARTNO" value="1276-2396-1-ND"/>
+<attribute name="PARTNO" value="CL21A105KBCLNNC"/>
 </part>
 <part name="C2" library="rlc-jqi" deviceset="CAP" device="0805" value="1uF">
-<attribute name="PARTNO" value="1276-2396-1-ND"/>
+<attribute name="PARTNO" value="CL21A105KBCLNNC"/>
 </part>
 <part name="GND1" library="supply1" deviceset="GND" device=""/>
 <part name="GND2" library="supply1" deviceset="GND" device=""/>
 <part name="VDD1" library="supply1" deviceset="VDD" device=""/>
 <part name="VDD2" library="supply1" deviceset="VDD" device=""/>
-<part name="JP1" library="mcu-accessories" deviceset="PINHD-2X4" device="SMT"/>
+<part name="JP1" library="mcu-accessories" deviceset="PINHD-2X4" device="SMT">
+<attribute name="PARTNO" value="0015912080"/>
+</part>
 <part name="VDD4" library="supply1" deviceset="VDD" device=""/>
 <part name="GND4" library="supply1" deviceset="GND" device=""/>
 </parts>
@@ -642,7 +646,9 @@
 <plain>
 </plain>
 <instances>
-<instance part="U1" gate="G$1" x="68.58" y="59.69"/>
+<instance part="U1" gate="G$1" x="68.58" y="59.69">
+<attribute name="PARTNO" x="68.58" y="59.69" size="1.778" layer="96" display="off"/>
+</instance>
 <instance part="C1" gate="G$1" x="88.9" y="34.29">
 <attribute name="PARTNO" x="88.9" y="34.29" size="1.778" layer="96" display="off"/>
 </instance>
@@ -653,7 +659,9 @@
 <instance part="GND2" gate="1" x="26.67" y="43.18"/>
 <instance part="VDD1" gate="G$1" x="25.4" y="71.12"/>
 <instance part="VDD2" gate="G$1" x="95.25" y="25.4"/>
-<instance part="JP1" gate="A" x="0" y="86.36"/>
+<instance part="JP1" gate="A" x="0" y="86.36">
+<attribute name="PARTNO" x="0" y="86.36" size="1.778" layer="96" display="off"/>
+</instance>
 <instance part="VDD4" gate="G$1" x="-15.24" y="100.33"/>
 <instance part="GND4" gate="1" x="38.1" y="88.9"/>
 </instances>

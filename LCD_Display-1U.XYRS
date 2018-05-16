@@ -1,0 +1,9 @@
+#MacroFab, INC. XYRS data for //elwood.nist.gov/685/users/dsb1/My Documents/GitHub/mcu-accessories/LCD_Display-1U.brd.
+#Board Size is 2000.000000 x 1000.000000.
+#
+#Placement Data:
+#Designator	X-Loc	Y-Loc	Rotation	Side	Type	X-Size	Y-Size	Value	Footprint	Populate	MPN
+C1	1350.00	200.00	0	1	1	125.98	59.06	1uF	0805	1	CL21A105KBCLNNC
+C2	1350.00	275.00	180	1	1	125.98	59.06	1uF	0805	1	CL21A105KBCLNNC
+JP1	1000.00	652.50	180	1	1	350.00	320.00		2X4SMT	1	0015912080
+U1	999.65	498.35	0	2	2	1629.92	956.69	NEWHAVEN_LCD	NEWHAVEN_LCD	1	NHD-C0216CZ-FSW-FBW-3V3
